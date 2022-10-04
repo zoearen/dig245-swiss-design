@@ -1,2 +1,108 @@
 
 /* css */
+h1 {
+  font-size: 20px;
+  font-size-adjust: auto;
+  font-style: bold;
+  text-align: left;
+  line-height: normal;
+  padding-top: 5px;
+  font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 96px;
+  font-style: bold;
+  margin-left: -1%;
+  margin-bottom: -1%;
+}
+
+h3 {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 16px;
+  font-style: bold;
+}
+
+body {
+  background-color: #000005;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+#button {
+  color: white;
+  background-color: #EF2419;
+  font-family: "Roboto", sans-serif;
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+  right: 0px;
+  margin: auto 0;
+  justify-content: center;
+}
+
+#body {
+  background-color: #C4C6C8;
+  padding: 2% solid #C4C6C8;
+}
+
+#heading {
+  background-color: black;
+  color: #E5E8EC;
+  margin: 2% 0%;
+}
+
+#spacing {
+  padding: 1%;
+}
+
+#namespace {
+  padding: 0% 1%;
+}
+
+#rectangle {
+  height: 1100px;
+  top: 60%;
+  bottom: 0%;
+}
+
+/* xs and s devices (116 and 20) */
+@media (min-width: 576px) {
+  h1 {font-size: 30px;}
+  h2 {font-size: 100px; margin-left: -1%;
+  margin-bottom: -1%;}
+  h3 {font-size: 18px;}
+}
+/* m devices */
+@media (min-width: 768px) {
+  h2 {font-size: 138px; margin-left: -1%;
+  margin-bottom: -1%;}
+  h3 {font-size: 18px;}
+}
+
+/* l devices */
+@media (min-width: 992px) {
+  h2 {font-size: 190px; margin-left: -1%;
+  margin-bottom: -1%;}
+  h3 {font-size: 22px;}
+}
+
+/* xl devices */
+@media (min-width: 1200px) {
+  h2 {font-size: 228px; margin-left: -1%;
+  margin-bottom: -1%;}
+  h3 {font-size: 22px;}
+}
+
+@media (min-width: 1400px) {
+  h2 {font-size: 242px; margin-left: -1%;
+  margin-bottom: -1%;}
+  h3 {font-size: 22px;}
+}
